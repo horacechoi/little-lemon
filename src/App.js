@@ -24,6 +24,8 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      <h1>hello</h1>
+      <div>hagdhs</div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
